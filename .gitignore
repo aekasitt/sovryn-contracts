@@ -1,0 +1,24 @@
+__pycache__
+.env
+.history
+.hypothesis/
+build/
+reports/
+.pytest_cache
+jstests
+
+# ignore yaml files except specified
+**/*.yml
+brownie-config.yml
+
+# ignore shellscript files except specified
+**/*.sh
+!update-contracts.sh
+
+# ignore contracts/ and interfaces/ folder, to be downloaded using update-contracts.sh command
+contracts
+interfaces
+
+# ignore ide workspace settings
+.vscode
+.idea

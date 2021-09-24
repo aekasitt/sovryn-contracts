@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sovryn-contracts"
+version = "0.1.0"
+description = "Clone of Sovryn-smart-contracts by DistributedCollective made focused on using Brownie Framework"
+authors = ["Sitt Guruvanich <aekazitt@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+eth-brownie = "^1.16.4"
+munch = "^2.5.0"
+slither-analyzer = "^0.8.1"
+bip-utils = "^1.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
